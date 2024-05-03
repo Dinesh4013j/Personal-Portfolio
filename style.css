@@ -1,0 +1,159 @@
+*{
+   
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    
+    background-color: rgb(239, 239, 239);
+}
+
+img{
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+}
+.first{
+    background-image: url(co1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.89;
+    margin: 0;
+    height: 100%;
+    position: sticky;
+    
+}
+.first1{
+    text-align: center;
+    color:rgb(237, 237, 245);
+    font-size: 40px;
+
+}
+.first1 h4{
+    font-size: 30px;
+    color: rgba(240, 4, 78, 0.915);
+    
+}
+.first2{
+    display: flex;
+}
+.first2 p{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    color: rgb(239, 234, 228);
+    text-align: center;
+    font-size: 30px;
+    padding: 4rem;
+    
+}
+.first img{
+    height: 45vh;
+    width:40vw
+}
+
+.second{
+    background-image: url(co3.png);
+    height: 100vh;
+    
+    
+    position:sticky;
+    color:rgb(208, 216, 175);
+
+
+}
+.second h1{
+    
+    width: 100%;
+    font-size: 45px;
+    height: 5rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(222, 224, 228);
+}
+.second1{
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 2rem;
+    font-size: 30px;
+}
+.second ul{
+    margin: 1em 1em;
+}
+.second li{
+    list-style: none;
+    font-size: 25px;
+    
+    color: rgb(243, 232, 220);
+}
+.three{
+    height: 100vh;
+    background-image: url(co2.png);
+    
+}
+.three h2{
+    
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.three1,.four1{
+    margin: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ 
+.three a:hover,.four a:hover{
+   
+    opacity: 0.4; 
+    background-color: aqua;
+    
+} 
+ .three img,.four img{
+    width: 100%;
+
+ }
+
+.leetcode,.codechef,.chat,.todo{
+    
+    border: 2px solid green;
+    padding: 1em;
+    border-radius: 20%;
+}
+
+.three figcaption,.four figcaption{
+    color:aquamarine ;
+    font-size: 20px;
+ }
+ .four{
+    background-image: url(co4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.89;
+    height: 80vh;
+ }
+ .four h1{
+    color: rgb(219, 114, 22);
+    font-size: 40px;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+
+ }
+
